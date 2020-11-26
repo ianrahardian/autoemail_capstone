@@ -12,7 +12,7 @@ import matplotlib.dates as mdates
 
 import fire
  
-def extract_contacts(contact_file="templates/contacts.txt"):
+def extract_contacts(contact_file):
   """
   Return two lists contacts, containing names and email addresses
   Please prepare an external files containing 2 information: name and email address
